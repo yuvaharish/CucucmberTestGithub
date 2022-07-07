@@ -1,0 +1,196 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "whatsup feature",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 501000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Whatsup created",
+            "match": {
+              "location": "stepdef.HookClassExplain.whatsup_created()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-06T04:30:41.342Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.HookClass.whatsupCreate()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Hook explain scenario",
+        "description": "",
+        "id": "title-of-your-feature;hook-explain-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.HookClass.whatsuppublish()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Whatsup audio",
+            "match": {
+              "location": "stepdef.HookClassExplain.whatsup_audio()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "whatsup video",
+            "match": {
+              "location": "stepdef.HookClassExplain.whatsup_video()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "whatsup chat",
+            "match": {
+              "location": "stepdef.HookClassExplain.whatsup_chat()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Hook"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "whatsup feature",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Whatsup created",
+            "match": {
+              "location": "stepdef.HookClassExplain.whatsup_created()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-06T04:30:42.860Z",
+        "line": 15,
+        "name": "Hook explain scenario",
+        "description": "",
+        "id": "title-of-your-feature;hook-explain-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Whatsup audio2",
+            "match": {
+              "location": "stepdef.HookClassExplain.whatsup_audio2()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "whatsup video2",
+            "match": {
+              "location": "stepdef.HookClassExplain.whatsup_video2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "whatsup chat2",
+            "match": {
+              "location": "stepdef.HookClassExplain.whatsup_chat2()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Hook"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/HookExplain.feature",
+    "tags": [
+      {
+        "name": "@Hook",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
